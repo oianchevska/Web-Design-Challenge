@@ -50,16 +50,12 @@
 }
 
 .outer-box {
-    margin-top:20px;
-    margin-right: 50px;
-    margin-left:50px;
     margin-bottom:50px;
-    padding:10px;
+    padding:50px;
 }
 
 .inner-box {
-    padding: 60px;
-    margin: 50px;
+    padding: 40px;
     background:white;
     text-align:left;
 }
@@ -76,5 +72,15 @@
     text-align: left;
     text-indent: 35px;
   }
+
+.main_background {
+    background-color:white;
+}
+
+.outer-box {
+    margin-bottom:0px;
+    padding:0px;
+}
+
 
 }
