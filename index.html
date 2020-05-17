@@ -69,39 +69,49 @@
 
     <div class="main_background">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row outer-box">
                 <div class="col-lg-7 col-md-7">
                     <div class="big-box">
-                        <h2>Summary: Latitude vs. X</h2><hr>
-                        <p class="text_color"><img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature">TBD</p>
-                        <p class="text_color">TBD2</p>
+                        <h2 id="main_color" style="font-weight: bold">Summary: Latitude vs. X</h2><hr>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                 <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <p/>
+                                <p class="text_color">The purpose of the project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                            </div>
+                        </div>
+                        <p/>
+                        <hr style="visibility: hidden;">
+                        <p class="text_color">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.</p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5">
                     <div class="medium-box">
-                        <h3>Visualizations</h3><hr>
+                        <h3 style="color: lightseagreen; font-weight: bold">Visualizations</h3><hr>
                             <div class="d-none d-md-block">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <a href = "visualizations/max_temperature.html">
-                                        <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature">
+                                        <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature" class="img-fluid active-img">
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <a href = "visualizations/humidity.html">
-                                        <img src="assets/images/City Latitude vs. Humidity.png" alt="Humidity">
+                                        <img src="assets/images/City Latitude vs. Humidity.png" alt="Humidity" class="img-fluid active-img">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <a href = "visualizations/cloudiness.html">
-                                        <img src="assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness">
+                                        <img src="assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness" class="img-fluid active-img">
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <a href = "visualizations/wind_speed.html">
-                                        <img src="assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed">
+                                        <img src="assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed" class="img-fluid active-img">
                                         </a>
                                     </div>
                                 </div>
@@ -110,22 +120,22 @@
                                 <div class="row">
                                     <div class="col-sm-3">
                                         <a href = "visualizations/max_temperature.html">
-                                        <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature">
+                                        <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature" class="img-fluid active-img">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
                                         <a href = "visualizations/humidity.html">
-                                        <img src="assets/images/City Latitude vs. Humidity.png" alt="Humidity">
+                                        <img src="assets/images/City Latitude vs. Humidity.png" alt="Humidity" class="img-fluid active-img">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
                                         <a href = "visualizations/cloudiness.html">
-                                        <img src="assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness">
+                                        <img src="assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness" class="img-fluid active-img">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
                                         <a href = "visualizations/wind_speed.html">
-                                        <img src="assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed">
+                                        <img src="assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed" class="img-fluid active-img">
                                         </a>
                                     </div>
                                 </div>

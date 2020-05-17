@@ -51,13 +51,27 @@
 
 .outer-box {
     margin-bottom:50px;
-    padding:50px;
+    padding:30px;
 }
 
 .inner-box {
     padding: 40px;
     background:white;
     text-align:left;
+}
+
+.big-box {
+    padding: 40px;
+    background:white;
+    /*text-align:left;*/
+}
+
+.medium-box {
+    padding: 40px;
+    background:white;
+}
+.active-img:hover {
+    border: 2px solid lightseagreen;
 }
 
 
